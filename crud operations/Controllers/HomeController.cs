@@ -7,7 +7,7 @@ namespace crud_operations.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-
+        //https://www.youtube.com/watch?v=SfWuOFEatYc
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
