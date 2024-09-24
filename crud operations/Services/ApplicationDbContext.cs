@@ -1,0 +1,16 @@
+﻿using crud_operations.Models;
+using Microsoft.EntityFrameworkCore;
+
+namespace crud_operations.Services
+{
+    public class ApplicationDbContext : DbContext
+
+    {
+        public ApplicationDbContext(DbContextOptions options) : base(options)
+        {
+
+        }
+        public DbSet<Product> Products {get;set;}
+
+    }
+}
